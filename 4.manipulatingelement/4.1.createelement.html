@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JS CreateElement Demo</title>
+</head>
+
+<body>
+    <div id="container">
+        <script>
+            let div = document.createElement('div');
+
+            div.id = 'content';
+            div.className = 'classcontent';
+
+            let text = document.createTextNode('CreateElement Menggunakan text node');
+            div.appendChild(text);
+            document.body.appendChild(div);
+            
+        </script>
+    </div>
+</body>
+</html>
